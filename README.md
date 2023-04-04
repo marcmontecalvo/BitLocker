@@ -40,3 +40,34 @@ In the PowerShell script window that opens you will paste in the contents of the
   alt="Script Summary"
   title="Script Summary"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+Next up lets fill in those other two fields at the top (the second and third lines of the script).  
+In line two we want to choose Set Custom Field and in the popup set "BitLocker Status" to %output% like this:
+<img
+  src="/screenshots/status_to_output.png"
+  alt="Script Summary"
+  title="Script Summary"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+NOTE: If you don't see BitLocker Status as an option then you probably need to go back to step 1 and add the custom fields!
+
+Now we will fill in line 3 of the script.  Choose Set Pre-Defined Variable and in the Variable Name put in "status".  Then select the Custom Field radial option and choose BitLocker Status (you can type in there to filter the available list.)  It should look like this when you are done:
+<img
+  src="/screenshots/predefined_status.png"
+  alt="Script Summary"
+  title="Script Summary"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+Now we will set the IF section of the script.  This is fairly straight forward and you just need to set it like we have in the screenshot below.  Make sure you choose OR next to the condition fields.  The 4 Set Custom Fields are set the same way as the one we did on line 2.
+<img
+  src="/screenshots/If_section.png"
+  alt="Script Summary"
+  title="Script Summary"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+The last step is the to fill in the Set Custom Field options in the Else section of the scipt.  All of the custom fields will be set to %output% but be sure to set the correct field on the correct line.  It should look like this:
+<img
+  src="/screenshots/Custom_Field_Output.png"
+  alt="Script Summary"
+  title="Script Summary"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
