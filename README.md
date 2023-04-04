@@ -14,9 +14,7 @@ They should look like this when you are done:
   style="margin: 0 auto; max-width: 300px">
 
 2) Once those are in place, go to Automation > Tasks and create a new script called "BitLocker Status Check".  Give that a description and put it in a category like this:
-<img
-  src="/screenshots/ScriptSummary.png"
-  style="margin: 0 auto; max-width: 300px">
+<img src="/screenshots/ScriptSummary.png">
 
 3) Now we will create the actual script logic.  On the Script Editor tab create the following stucture (we will add the actual functions in a moment):
 <img
