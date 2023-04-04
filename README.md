@@ -2,11 +2,11 @@
 
 1) Go to Settings > Custom Fields and add the following Custom Fields as Text Boxes on the Endpoint level and make sure they are Editable:
 
-BitLocker Encryption Percentage
-BitLocker Key ID
-BitLocker Protection Status
-BitLocker Recovery Password
-BitLocker Status
+<ul><li>BitLocker Encryption Percentage</li>
+<li>BitLocker Key ID</li>
+<li>BitLocker Protection Status</li>
+<li>BitLocker Recovery Password</li>
+<li>BitLocker Status</li></ul>
 
 They should look like this when you are done:
 <img
