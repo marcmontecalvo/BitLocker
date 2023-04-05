@@ -27,7 +27,7 @@ They should look like this when you are done:
 In line two we want to choose Set Custom Field and in the popup set "BitLocker Status" to %output% like this:
 <img src="/screenshots/status_to_output.png">
 :warning: NOTE: If you don't see BitLocker Status as an option then you probably need to go back to step 1 and add the custom fields!
-
+</br>
 
 7) Now we will fill in line 3 of the script.  Choose Set Pre-Defined Variable and in the Variable Name put in "status".  Then select the Custom Field radial option and choose BitLocker Status (you can type in there to filter the available list.)  It should look like this when you are done:
 <img src="/screenshots/predefined_status.png">
