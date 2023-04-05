@@ -29,7 +29,6 @@ In line two we want to choose Set Custom Field and in the popup set "BitLocker S
 :warning: NOTE: If you don't see BitLocker Status as an option then you probably need to go back to step 1 and add the custom fields!
 <br />
 <br />
-<br />
 7) Now we will fill in line 3 of the script.  Choose Set Pre-Defined Variable and in the Variable Name put in "status".  Then select the Custom Field radial option and choose BitLocker Status (you can type in there to filter the available list.)  It should look like this when you are done:
 <img src="/screenshots/predefined_status.png">
 
